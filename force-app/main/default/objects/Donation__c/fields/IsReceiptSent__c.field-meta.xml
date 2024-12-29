@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsReceiptSent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is Receipt Sent to Donor?</description>
+    <externalId>false</externalId>
+    <label>IsReceiptSent</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

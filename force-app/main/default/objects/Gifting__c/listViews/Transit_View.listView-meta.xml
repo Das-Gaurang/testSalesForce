@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transit_View</fullName>
+    <columns>NAME</columns>
+    <columns>Donor_Contact__c</columns>
+    <columns>TrackingNumber__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>InTransit</value>
+    </filters>
+    <label>Transit View</label>
+</ListView>

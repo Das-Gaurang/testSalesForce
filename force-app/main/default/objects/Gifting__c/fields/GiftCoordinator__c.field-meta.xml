@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GiftCoordinator__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Devotee responsible for sending this gift.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Devotee responsible for sending this gift.</inlineHelpText>
+    <label>GiftCoordinator</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>GiftCoordinator</relationshipLabel>
+    <relationshipName>GiftCoordinator</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locality__c</fullName>
+    <description>Locality of the donor.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Locality of the donor.</inlineHelpText>
+    <label>Locality</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

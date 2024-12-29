@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Donation_Id__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   ISPICKVAL(Donor__r.Account.Account_code__c, &#39;IK&#39;),
+  (&#39;IK&#39;&amp;&#39;_&#39;&amp;TEXT(MONTH( DATEVALUE(Donor__r.CreatedDate) ))&amp;&#39;_&#39;&amp;TEXT(YEAR( DATEVALUE(Donor__r.CreatedDate) ))&amp;&#39;_&#39;&amp;Donor__r.UUID__c&amp;&#39;_&#39;&amp;Name),  
+  (&#39;GQ&#39;&amp;&#39;_&#39;&amp;TEXT(MONTH( DATEVALUE(Donor__r.CreatedDate) ))&amp;&#39;_&#39;&amp;TEXT(YEAR( DATEVALUE(Donor__r.CreatedDate) ))&amp;&#39;_&#39;&amp;Donor__r.UUID__c&amp;&#39;_&#39;&amp;Name)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>External Donation Id</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
